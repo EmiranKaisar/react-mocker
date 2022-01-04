@@ -1,0 +1,75 @@
+@import './molecule';
+//This is one of the organism called "contentcontainer"
+.content-container {
+  min-width: 30px;
+  min-height: 30px;
+   background-color: white;
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}
+// This is one of the organism called "left-side-bar"
+.left-side-bar {
+  grid-area: B;
+  max-height: 796px;
+  background-color: white;
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}
+
+.top-bar-black {
+  grid-area: A;
+  display: flex;
+  justify-content: space-between;
+  max-height: 104px;
+  background: #313F4F;
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}
+.top-bar-white {
+  grid-area: G;
+  display: flex;
+  justify-content: space-between;
+  max-height: 104px;
+  background:  white;
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}
+
+.molecule-container{
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 30px;
+  min-height: 30px;
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}

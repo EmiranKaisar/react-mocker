@@ -1,0 +1,207 @@
+%editor-btn{
+  border: none;
+  padding: 10px ;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  &:hover{
+    opacity: 0.5;
+  }
+  &:focus{
+    outline:none;
+  }
+  &:active{
+    transform:  scale(0.98);
+  }
+}
+//this is editor's container
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  background-color:#E5E5E5;
+  width: 20%;
+  max-width: 400px;
+  min-height: 600px;
+  height: 100vh;
+  border: 1px solid steelblue;
+  padding: 30px;
+  overflow: scroll;
+}
+//this is a container for each item in the editor
+.editor-each-item {
+  margin-top: 30px;
+}
+//this is a container that display btn in row
+.btn-in-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+//this is a container that display btn in column
+.btn-in-column{
+  display: flex;
+  flex-direction: column;
+}
+//this is "add-interaction-btn" that add interaction
+.add-interaction-btn {
+  display: inline-block;
+  background:orange;
+  color: #fff;
+  @extend %editor-btn;
+}
+//this is "delete-comp-btn" that delete selected element
+.delete-comp-btn{
+  display: inline-block;
+  background:purple;
+  color: #fff;
+  @extend %editor-btn;
+}
+//this is "select-comp-type-btn" that select type of the selected comp
+.select-comp-type-btn{
+  display: inline-block;
+  background:blue;
+  color: #fff;
+  @extend %editor-btn;
+  border-radius: 15px;
+  &.selected {
+    background: white;
+    color: blue;
+  }
+}
+//this is "editor-submit-btn" that submit changes
+.editor-submit-btn{
+  display: inline-block;
+  background:black;
+  color: #fff;
+  @extend %editor-btn;
+}
+//this is "editor-switch-btn" that switch editor on and off
+.editor-switch-btn{
+  position:relative;
+  left: 90%;
+  display: inline-block;
+  background: green;
+  color: #fff;
+  @extend %editor-btn;
+  &.stopEdit{
+    background-color: red;
+  }
+  &:hover{
+    opacity: 0.5;
+  }
+  &:focus{
+    outline: none;
+  }
+  &:active{
+    background-color: red;
+    transform: scale(0.98);
+  }
+}
+.editor-selector{
+  position:relative;
+  left: 70%;
+  display: inline-block;
+}
+.editor-folder {
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+  margin: 1em;
+  &::before{
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  &.open {
+    &::before{
+      content: "\25B6";
+      color: black;
+      display: inline-block;
+      transform: rotate(90deg);
+    }
+  }
+
+}
+.editor-nested {
+  display: none;
+  &.open{
+    display: block;
+  }
+}
+.editor-template-item{
+  cursor: pointer;
+  user-select: none;
+  background: rgba($color: #000000, $alpha: 0);
+  &.open{
+    background: greenyellow;
+  }
+}
+.editor-templates-pagecontainer{
+  display: flex;
+  height: 90vh;
+  row-gap: 30px;
+} 
+.editor-templates-tree{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ background: gainsboro;
+ border: 1px solid blue;
+ overflow: scroll;
+}
+.editor-templates-selected{
+  flex: 1 0 30%;
+  border: 1px solid blue;
+}
+.editor-templates-editor{
+  width: 300px;
+  background: gainsboro;
+  border: 1px solid blue;
+  overflow: scroll;
+}
+
+.editor-template-adder{
+  display: flex;
+  justify-content: space-around;
+}
+
+// Page Id
+.page-id{
+  position: absolute;
+  left: 0%;
+  top: 0%
+}
+
+// Organism grid-area selecter
+.editor-grid-selector{
+  display: grid;
+  grid-template-rows:  repeat(4, 1fr);
+  grid-template-columns: repeat(4,1fr);
+}
+.editor-grid-selector-btn{
+  display: inline-block;
+  background:darkcyan;
+  color: #fff;
+  @extend %editor-btn;
+  border-radius: 4px;
+  &.selected {
+    background: white;
+    color: darkcyan;
+  }
+  &.disabled {
+    background: lightgray;
+  }
+}
+
+.editor-size-input-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.editor-size-input-item{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;;
+}

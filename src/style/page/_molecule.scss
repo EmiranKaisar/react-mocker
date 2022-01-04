@@ -1,0 +1,149 @@
+@import "./atom";
+//This is a molecule called "card"
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
+  margin: 20px;
+  min-height: 30px;
+  max-height: 620px;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  // transition: 0.3s;
+  // &:hover {
+  //   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  // }
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}
+//this is a molecule called "item"
+.item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  min-height: 50px;
+  padding: 8px;
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}
+//this is a molecule called "space-between-item"
+.space-between-item{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  min-height: 50px;
+  padding: 8px;
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}
+//this is a molecule called "checkable-card"
+.checkable-card{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 20px;
+  min-height: 30px;
+  max-height: 620px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}
+.menu {
+  display: flex;
+  min-width: 800px;
+  min-height: 52px;
+  max-height: 620px;
+  &.editmode{
+    &:hover{
+      border: 5px solid green;
+    }
+   &.chosen{
+      border: 2px solid rgb(0, 66, 128);
+    }
+}
+}
+.tree {
+  display: flex;
+  min-width: 100px;
+  min-height: 50px;
+  max-height: 620px;
+  &.editmode{
+    &:hover{
+      border: 5px solid green;
+    }
+   &.chosen{
+      border: 2px solid rgb(0, 66, 128);
+    }
+}
+}
+.selftree {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1em;
+  &.editmode{
+    &:hover{
+      border: 5px solid green;
+    }
+   &.chosen{
+      border: 2px solid rgb(0, 66, 128);
+    }
+}
+}
+.breadcrumb {
+  display: flex;
+  min-width: 100px;
+  min-height: 50px;
+  max-height: 620px;
+  &.editmode{
+    &:hover{
+      border: 5px solid green;
+    }
+   &.chosen{
+      border: 2px solid rgb(0, 66, 128);
+    }
+}
+}
+.content-pagination {
+  display: flex;
+  align-self: flex-end;
+  &.editmode {
+    &:hover {
+      border: 5px solid green;
+    }
+    &.chosen {
+      border: 2px solid rgb(0, 66, 128);
+    }
+  }
+}

@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  margin-bottom: 4px;
+}
+p {
+  padding: 0px 4px;
+}
+
+.property {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 5%;
+  top: 100px;
+  height: 600px;
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+.eachproperty {
+  margin-top: 30px;
+}
+.element {
+  position: absolute;
+  left: 5%;
+  width: 1440px;
+  height: 800px;
+  margin: 30px;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+.contentcontainer {
+  left: 5%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-height: 50px;
+}
+.contentcontainer.editmode:hover {
+  border: 5px solid green;
+}
+.contentcontainer.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+
+.leftsidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 20px;
+  min-height: 30px;
+  max-height: 620px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card.editmode:hover {
+  border: 5px solid green;
+}
+.card.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  min-height: 50px;
+  padding: 8px;
+}
+.item.editmode:hover {
+  border: 5px solid green;
+}
+.item.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+
+/* On mouse-over, add a deeper shadow */
+.item:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  object-fit: cover;
+  max-height: 100px;
+}
+.cardimg.editmode:hover {
+  border: 2px solid green;
+}
+.cardimg.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+
+.containerfirstimg{
+  height: 50%;
+  grid-area: A;
+}
+.containerfirstimg.editmode:hover {
+  border: 2px solid green;
+}
+.containerfirstimg.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+.containersecondimg{
+  height: 40%;
+  grid-area: B;
+}
+.containersecondimg.editmode:hover {
+  border: 2px solid green;
+}
+.containersecondimg.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+.containerthirdimg{
+  height: 40%;
+  grid-area: C;
+}
+.containerthirdimg.editmode:hover {
+  border: 2px solid green;
+}
+.containerthirdimg.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+
+/* Add some padding inside the card container */
+.cardtitle {
+  padding: 2px 16px;
+  width: 200px;
+}
+.cardtitle.editmode:hover {
+  border: 2px solid green;
+}
+.cardtitle.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+
+.labelrow {
+  height: 24px;
+  padding: 2px 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+.labelrow.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+.labelrow.editmode:hover {
+  border: 2px solid green;
+}
+.labelrow.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+.itemcolumn {
+  min-height: 24px;
+  max-height: fit-content;
+  padding: 2px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.itemcolumn.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+.itemcolumn.editmode:hover {
+  border: 2px solid green;
+}
+.itemcolumn.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+.picgrid {
+  display: grid;
+  grid-template-areas: 
+  "A B "
+  "A C ";
+  height: 80%;
+  border: 2px;
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.picgrid.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+.picgrid.editmode:hover {
+  border: 2px solid green;
+}
+
+
+.label {
+  display: inline-block;
+  overflow: auto;
+  font-size: 12px;
+  margin-right: 8px;
+  border-radius: 2px;
+  background-color: rgb(184, 184, 184);
+  background-clip: content-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.label.editmode:hover {
+  border: 1px solid green;
+}
+.label.editmode.chosen {
+  border: 2px solid rgb(0, 66, 128);
+}
+.btnrow {
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn:hover {
+  opacity: 0.5;
+}
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btnEdit {
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+  background: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btnEdit.stopEdit {
+  background-color: red;
+}
+.btnEdit:hover {
+  opacity: 0.5;
+}
+.btnEdit:focus {
+  outline: none;
+}
+
+.btnEdit:active {
+  background-color: red;
+  transform: scale(0.98);
+}
+
+.btnEdit-block {
+  display: block;
+  width: 100%;
+}
+
+

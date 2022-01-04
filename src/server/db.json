@@ -1,0 +1,5747 @@
+{
+  "elements": [
+    {
+      "id": 0,
+      "name": "page",
+      "type": [
+        "page0",
+        "page1"
+      ],
+      "selectedtype": 0,
+      "pagearray": [
+        [
+          1
+        ],
+        [
+          14
+        ]
+      ],
+      "pagelayoutarray": [
+        [
+          5,
+          25,
+          25,
+          25,
+          20,
+          25,
+          25,
+          25
+        ],
+        [
+          5,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ]
+      ],
+      "pagestylearray": [
+        {
+          "backgroundimg": "https://static.tezign.com/46d6687b9d4bafe25598c3835dbfb972.jpg?imageView2/0/interlace/1",
+          "backgroundcolor": "#F0F2F5"
+        },
+        {
+          "backgroundimg": "",
+          "backgroundcolor": "#F0F2F5"
+        }
+      ],
+      "canchild": [
+        0
+      ],
+      "deletedpage": []
+    },
+    {
+      "id": 1,
+      "name": "organism",
+      "pageid": 0,
+      "state": [
+        [
+          2,
+          5,
+          13
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "content-container",
+        "left-side-bar",
+        "top-bar-black",
+        "top-bar-white"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        40,
+        41,
+        43,
+        79,
+        87,
+        89,
+        91,
+        95,
+        126,
+        141,
+        142,
+        143
+      ],
+      "grid": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "selectedgrid": 0,
+      "selectedarea": [
+        1
+      ],
+      "style": "border-radius: 0px 0px 20px 20px;\nwidth:300px;\nheight: 168px;\nposition:relative;\n",
+      "comptype": "master",
+      "complevel": "organism",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 2,
+      "name": "MuseLogo",
+      "parentid": 1,
+      "parentstate": 0,
+      "state": [
+        [
+          3,
+          4
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "display:flex;\nflex-direction:column;\nwidth:300px;\nheight:81px;\nbackground:white;\nalign-self:center;\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 3,
+      "name": "text",
+      "parentid": 2,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "content: '';\nwidth:20px;\nalign-self:center;\nborder-top:1px solid #999;\nborder-bottom:1px solid #999;\n\n\n\n\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 4,
+      "name": "text",
+      "parentid": 2,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "MUSE",
+      "style": "margin: 10px auto 12px;\nline-height: 1;\ntext-align: center;\nfont-size: 24px;\nfont-weight: 700;\nletter-spacing: .5px;\ncolor: #000;\ninline-size: min-content;\nwhite-space: nowrap;\npadding:0px;\nz-index:1;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 5,
+      "name": "AddItem",
+      "parentid": 1,
+      "parentstate": 0,
+      "state": [
+        [
+          6,
+          8
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        41,
+        43,
+        142,
+        143
+      ],
+      "style": "flex-direction:row;\nalign-items:center;\n",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 6,
+      "name": "AddText",
+      "parentid": 5,
+      "parentstate": 0,
+      "state": [
+        [
+          7
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "display:flex;\nbackground:white;\nalign-items:center;\njustify-content:center;\nborder-radius:12px;\nwidth:44px;\nheight:44px;\nborder: 1.5px solid #2a3243;\ncolor:#2a3243;\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 7,
+      "name": "text",
+      "parentid": 6,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:24px;\nline-height:1;\npadding:0px;\npadding-bottom:4px;\ninline-size: min-content;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 8,
+      "name": "AddText1",
+      "parentid": 5,
+      "parentstate": 0,
+      "state": [
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:120px;\ndisplay:flex;\nflex-direction:column;\nbackground:white;\nz-index:1;\nbackground-color:rgba(0,0,0,0);",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 9,
+      "name": "text",
+      "parentid": 8,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "选择文件",
+      "style": "font-size: 18px;\nfont-weight: 600;\ncolor: #263035;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": 1,
+      "statedir": null
+    },
+    {
+      "id": 10,
+      "name": "text",
+      "parentid": 8,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "选择文件夹",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 11,
+      "name": "text",
+      "parentid": 8,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 12,
+      "name": "text",
+      "parentid": 8,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件夹",
+      "style": "font-size: 18px;\nfont-weight: 600;\ncolor: #263035;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 13,
+      "name": "RightSvg",
+      "parentid": 1,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:158px;\nheight:140px;\nbackground-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;\nposition:absolute;\nright:0px;\nbottom:0px;\nborder-radius: 0px 0px 20px 20px;\n\n\n\n\n\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 14,
+      "name": "organism",
+      "pageid": 0,
+      "state": [
+        [
+          15,
+          18,
+          28,
+          36
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "content-container",
+        "left-side-bar",
+        "top-bar-black",
+        "top-bar-white"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        40,
+        41,
+        43,
+        79,
+        87,
+        89,
+        91,
+        95,
+        126,
+        141,
+        142,
+        143
+      ],
+      "grid": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "selectedgrid": 9,
+      "selectedarea": [
+        1,
+        5,
+        9
+      ],
+      "style": "width:300px;\nborder-radius: 0px 0px 20px 20px;\ndisplay:flex;\nflex-direction:column;\nalign-items:center;\n\n\n",
+      "comptype": "master",
+      "complevel": "organism",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 15,
+      "name": "MuseLogo",
+      "parentid": 14,
+      "parentstate": 0,
+      "state": [
+        [
+          16,
+          17
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "display:flex;\nflex-direction:column;\nwidth:300px;\nheight:81px;\nbackground:white;\nalign-self:center;\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 16,
+      "name": "text",
+      "parentid": 15,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "content: '';\nwidth:20px;\nalign-self:center;\nborder-top:1px solid #999;\nborder-bottom:1px solid #999;\n\n\n\n\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 17,
+      "name": "text",
+      "parentid": 15,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "MUSE",
+      "style": "margin: 10px auto 12px;\nline-height: 1;\ntext-align: center;\nfont-size: 24px;\nfont-weight: 700;\nletter-spacing: .5px;\ncolor: #000;\ninline-size: min-content;\nwhite-space: nowrap;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 18,
+      "name": "Item",
+      "parentid": 14,
+      "parentstate": 0,
+      "state": [
+        [
+          19
+        ],
+        [
+          22,
+          25
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22
+      ],
+      "style": "flex-direction:row;",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 19,
+      "name": "ItemText",
+      "parentid": 18,
+      "parentstate": 0,
+      "state": [
+        [
+          20,
+          21
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 20,
+      "name": "text",
+      "parentid": 19,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 21,
+      "name": "text",
+      "parentid": 19,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 22,
+      "name": "ItemText",
+      "parentid": 18,
+      "parentstate": 0,
+      "state": [
+        [
+          23,
+          24
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 23,
+      "name": "text",
+      "parentid": 22,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 24,
+      "name": "text",
+      "parentid": 22,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 25,
+      "name": "text",
+      "parentid": 18,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:18px;\nline-height: 0.5;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;\ntransform: rotate(45deg);\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": 0,
+      "statedir": null
+    },
+    {
+      "id": 26,
+      "name": "UploadButton",
+      "parentid": 14,
+      "parentstate": 0,
+      "state": [
+        [
+          27
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "display: flex;\nflex-direction: row;\njustify-content: center;\nalign-items: center;\npadding: 10px 30px;\n\nposition: relative;\nwidth: 160px;\nheight: 40px;\n\nbackground: #5544DE;\nborder-radius: 12px;\n:hover{\nbackground: #AFA0E7;\n}\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": 0,
+      "statedir": null
+    },
+    {
+      "id": 27,
+      "name": "text",
+      "parentid": 26,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "上传",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\ncolor:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 28,
+      "name": "AddItem",
+      "parentid": 14,
+      "parentstate": 0,
+      "state": [
+        [
+          29,
+          31
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        41,
+        43
+      ],
+      "style": "flex-direction:row;\nalign-items:center;\n",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 29,
+      "name": "AddText",
+      "parentid": 28,
+      "parentstate": 0,
+      "state": [
+        [
+          30
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "display:flex;\nbackground:white;\nalign-items:center;\njustify-content:center;\nborder-radius:12px;\nwidth:44px;\nheight:44px;\nborder: 1.5px solid #2a3243;\ncolor:#2a3243;\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 30,
+      "name": "text",
+      "parentid": 29,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:24px;\nline-height:1;\npadding:0px;\npadding-bottom:4px;\ninline-size: min-content;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 31,
+      "name": "AddText1",
+      "parentid": 28,
+      "parentstate": 0,
+      "state": [
+        [
+          32,
+          33
+        ],
+        [
+          34,
+          35
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:120px;\ndisplay:flex;\nflex-direction:column;\nbackground:white;",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 32,
+      "name": "text",
+      "parentid": 31,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "选择文件",
+      "style": "font-size: 18px;\nfont-weight: 600;\ncolor: #263035;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 33,
+      "name": "text",
+      "parentid": 31,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "选择文件夹",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 34,
+      "name": "text",
+      "parentid": 31,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 35,
+      "name": "text",
+      "parentid": 31,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件夹",
+      "style": "font-size: 18px;\nfont-weight: 600;\ncolor: #263035;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 36,
+      "name": "NewDuration",
+      "parentid": 14,
+      "parentstate": 0,
+      "state": [
+        [
+          37,
+          38
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        142,
+        143
+      ],
+      "style": "width:300px;\nheight:54px;\nposition:relative;\nborder-top: 1px solid #999;\nborder-bottom: 1px solid #999;\ndisplay:flex;\nflex-direction:row;\njustify-content:space-between;\nalign-items:center;\n\n\n\n\n\n",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 37,
+      "name": "text",
+      "parentid": 36,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "有效期",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\nmargin-left:24px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 38,
+      "name": "NewDurationText",
+      "parentid": 36,
+      "parentstate": 0,
+      "state": [
+        [
+          39,
+          40
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "background-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 39,
+      "name": "text",
+      "parentid": 38,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 40,
+      "name": "img",
+      "parentid": 38,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    }
+  ],
+  "templates": [
+    {
+      "id": 0,
+      "name": "organism",
+      "pageid": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "content-container",
+        "left-side-bar",
+        "top-bar-black",
+        "top-bar-white"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        40,
+        41,
+        43,
+        79,
+        87,
+        89,
+        91,
+        95,
+        126,
+        141,
+        142,
+        143
+      ],
+      "grid": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "selectedgrid": 0,
+      "selectedarea": [
+        0
+      ],
+      "style": "",
+      "comptype": "master",
+      "complevel": "organism",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 1,
+      "name": "moleculecontainer",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "molecule-container"
+      ],
+      "selectedtype": 0,
+      "childarray": [],
+      "canchild": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        40,
+        41,
+        43,
+        79,
+        87,
+        89,
+        91,
+        95,
+        126,
+        141,
+        142,
+        143
+      ],
+      "style": "",
+      "comptype": "master",
+      "complevel": "",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 2,
+      "name": "molecule",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 1,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        41,
+        43,
+        79,
+        87,
+        95,
+        126,
+        142,
+        143
+      ],
+      "style": "",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 3,
+      "name": "container",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "label-row",
+        "item-column",
+        "img-grid"
+      ],
+      "selectedtype": 0,
+      "childarray": [],
+      "canchild": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        41,
+        43,
+        79,
+        87,
+        95,
+        126,
+        142,
+        143
+      ],
+      "style": "",
+      "comptype": "master",
+      "complevel": "",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 4,
+      "name": "subcontainer",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "label-row",
+        "item-column",
+        "img-grid"
+      ],
+      "selectedtype": 0,
+      "childarray": [],
+      "canchild": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        41,
+        43,
+        79,
+        87,
+        95,
+        126,
+        142,
+        143
+      ],
+      "style": "",
+      "comptype": "master",
+      "complevel": "",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 5,
+      "name": "img",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "",
+      "style": "",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 6,
+      "name": "text",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 7,
+      "name": "atom",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          20
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:100px;\nbackground:red;\n",
+      "img": [
+        "muse",
+        "logo"
+      ],
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 8,
+      "name": "generalcheckablecard",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "option": {
+        "size": [
+          "small",
+          "default",
+          "large'"
+        ],
+        "type": [
+          "round",
+          "circle"
+        ],
+        "border": [
+          0,
+          1,
+          2
+        ]
+      },
+      "childarray": [],
+      "canchild": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        14,
+        15,
+        16,
+        19,
+        22,
+        41,
+        43,
+        79,
+        87,
+        95,
+        126,
+        142,
+        143
+      ],
+      "comptype": "general",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 9,
+      "name": "generalmenu",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "menu"
+      ],
+      "selectedtype": 0,
+      "alloptions": {
+        "theme": {
+          "index": 0,
+          "options": [
+            "dark",
+            "light"
+          ]
+        }
+      },
+      "childarray": [],
+      "canchild": [
+        10,
+        11
+      ],
+      "selectedkey": null,
+      "comptype": "general",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 10,
+      "name": "generalsubmenu",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "submenu"
+      ],
+      "selectedtype": 0,
+      "childarray": [],
+      "canchild": [
+        11
+      ],
+      "input": "PNG12",
+      "comptype": "general",
+      "complevel": "",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 11,
+      "name": "generalmenuitem",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "menuitem"
+      ],
+      "selectedtype": 0,
+      "input": "PNG12",
+      "comptype": "general",
+      "complevel": "",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 12,
+      "name": "generalbreadcrumb",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "option": {
+        "size": [
+          "small",
+          "default",
+          "large'"
+        ],
+        "type": [
+          "round",
+          "circle"
+        ],
+        "border": [
+          0,
+          1,
+          2
+        ]
+      },
+      "childarray": [],
+      "canchild": [
+        19
+      ],
+      "selectedcrumb": null,
+      "comptype": "general",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 13,
+      "name": "generalbreadcrumbitem",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "option": {
+        "size": [
+          "small",
+          "default",
+          "large'"
+        ],
+        "type": [
+          "round",
+          "circle"
+        ],
+        "border": [
+          0,
+          1,
+          2
+        ]
+      },
+      "input": "cao",
+      "comptype": "general",
+      "complevel": "",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 14,
+      "name": "generalbutton",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "alloptions": {
+        "size": {
+          "index": 0,
+          "options": [
+            "xs",
+            "small",
+            "defualt",
+            "large"
+          ]
+        },
+        "ghost": {
+          "index": 0,
+          "options": [
+            "default",
+            "solid",
+            "dashed",
+            "reverse",
+            "text",
+            "text-hover"
+          ]
+        },
+        "shape": {
+          "index": 0,
+          "options": [
+            "round",
+            "oval",
+            "circle",
+            "square"
+          ]
+        },
+        "level": {
+          "index": 0,
+          "options": [
+            "primary",
+            "neutral",
+            "danger"
+          ]
+        }
+      },
+      "input": "button",
+      "comptype": "general",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 15,
+      "name": "generalinput",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "input": "search text",
+      "comptype": "general",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 16,
+      "name": "mastertree",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "submenu"
+      ],
+      "selectedtype": 0,
+      "childarray": [],
+      "canchild": [
+        17,
+        18
+      ],
+      "selectedkey": null,
+      "input": "PNG12",
+      "style": "",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 17,
+      "name": "mastertreenode",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "submenu"
+      ],
+      "selectedtype": 0,
+      "childarray": [],
+      "canchild": [
+        18
+      ],
+      "input": "PNG12",
+      "open": true,
+      "style": "",
+      "comptype": "",
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 18,
+      "name": "mastertreeleaf",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "submenu"
+      ],
+      "selectedtype": 0,
+      "input": "PNG12",
+      "style": "",
+      "comptype": "master",
+      "complevel": "",
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 19,
+      "name": "generalpagination",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "input": "20",
+      "default": 2,
+      "comptype": "general",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 20,
+      "name": "text",
+      "parentid": 20,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "\n    content: '';\n    border-radius: 0 20px 0 0;\n    background-color: #708090;\n\n\n\n\n\n\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 21,
+      "name": "Item",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          63
+        ],
+        [
+          66,
+          69
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22
+      ],
+      "style": "flex-direction:row;",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 22,
+      "name": "ItemText",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          23,
+          24
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 23,
+      "name": "text",
+      "parentid": 23,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 24,
+      "name": "text",
+      "parentid": 24,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 25,
+      "name": "ItemText",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        [
+          26,
+          27
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 26,
+      "name": "text",
+      "parentid": 25,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 27,
+      "name": "text",
+      "parentid": 25,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 28,
+      "name": "ItemText",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        [
+          29,
+          30
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 29,
+      "name": "text",
+      "parentid": 28,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 30,
+      "name": "text",
+      "parentid": 28,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 31,
+      "name": "text",
+      "parentid": 31,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:16px;\nline-height: 0.5;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;\ntransform:rotate(45deg);\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 32,
+      "name": "ItemText",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        [
+          33,
+          34
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 33,
+      "name": "text",
+      "parentid": 32,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 34,
+      "name": "text",
+      "parentid": 32,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 35,
+      "name": "text",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:16px;\nline-height: 0.5;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;\ntransform: rotate(45deg);\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 36,
+      "name": "ItemText",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        [
+          37,
+          38
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 37,
+      "name": "text",
+      "parentid": 36,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 38,
+      "name": "text",
+      "parentid": 36,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 39,
+      "name": "text",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:16px;\nline-height: 0.5;\ncolor: #5544de;\ninline-size: min-content;\npadding:0px;\ntransform: rotate(45deg);\ncursor: pointer;\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 40,
+      "name": "AddItem",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          72,
+          74
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        41,
+        43
+      ],
+      "style": "flex-direction:row;\nalign-items:center;\n",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 41,
+      "name": "AddText",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          42
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "display:flex;\nbackground:white;\nalign-items:center;\njustify-content:center;\nborder-radius:12px;\nwidth:44px;\nheight:44px;\nborder: 1.5px solid #2a3243;\ncolor:#2a3243;\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 42,
+      "name": "text",
+      "parentid": 41,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:24px;\nline-height:1;\npadding:0px;\npadding-bottom:4px;\ninline-size: min-content;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 43,
+      "name": "AddText1",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          44,
+          45
+        ],
+        [
+          70,
+          71
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:120px;\ndisplay:flex;\nflex-direction:column;\nbackground:white;",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 44,
+      "name": "text",
+      "parentid": 43,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "选择文件",
+      "style": "font-size: 18px;\nfont-weight: 600;\ncolor: #263035;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 45,
+      "name": "text",
+      "parentid": 43,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "选择文件夹",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 46,
+      "name": "text",
+      "parentid": 43,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\nfont-weight:300;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 47,
+      "name": "text",
+      "parentid": 43,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件夹",
+      "style": "font-size:18px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;\nfont-weight:600;\nwhite-space:nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 48,
+      "name": "AddText",
+      "parentid": 40,
+      "parentstate": 0,
+      "state": [
+        [
+          49
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "display:flex;\nbackground:white;\nalign-items:center;\njustify-content:center;\nborder-radius:12px;\nwidth:44px;\nheight:44px;\nborder: 1.5px solid #2a3243;\ncolor:#2a3243;\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 49,
+      "name": "text",
+      "parentid": 48,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:24px;\nline-height:1;\npadding:0px;\npadding-bottom:4px;\ninline-size: min-content;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 50,
+      "name": "AddText1",
+      "parentid": 40,
+      "parentstate": 0,
+      "state": [
+        [
+          51,
+          52
+        ],
+        [
+          53,
+          54
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:120px;\ndisplay:flex;\nflex-direction:column;\nbackground:white;\n\n\n\n\n\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 51,
+      "name": "text",
+      "parentid": 50,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件",
+      "style": "font-size:18px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;\nfont-weight:600;\nwhite-space:nowrap;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 52,
+      "name": "text",
+      "parentid": 50,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "或选择文件夹",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\nfont-weight:300;\nwhite-space: nowrap;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 53,
+      "name": "text",
+      "parentid": 50,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\nfont-weight:300;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 54,
+      "name": "text",
+      "parentid": 50,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件夹",
+      "style": "font-size:18px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;\nfont-weight:600;\nwhite-space:nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 55,
+      "name": "ItemText",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        [
+          56,
+          57
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 56,
+      "name": "text",
+      "parentid": 55,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 57,
+      "name": "text",
+      "parentid": 55,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 58,
+      "name": "AddText",
+      "parentid": 40,
+      "parentstate": 0,
+      "state": [
+        [
+          59
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "display:flex;\nbackground:white;\nalign-items:center;\njustify-content:center;\nborder-radius:12px;\nwidth:44px;\nheight:44px;\nborder: 1.5px solid #2a3243;\ncolor:#2a3243;\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 59,
+      "name": "text",
+      "parentid": 58,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:24px;\nline-height:1;\npadding:0px;\npadding-bottom:4px;\ninline-size: min-content;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 60,
+      "name": "AddText1",
+      "parentid": 40,
+      "parentstate": 0,
+      "state": [
+        [
+          61,
+          62
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 61,
+      "name": "text",
+      "parentid": 60,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 62,
+      "name": "text",
+      "parentid": 60,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 63,
+      "name": "ItemText",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        [
+          64,
+          65
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 64,
+      "name": "text",
+      "parentid": 63,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 65,
+      "name": "text",
+      "parentid": 63,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 66,
+      "name": "ItemText",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        [
+          67,
+          68
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 67,
+      "name": "text",
+      "parentid": 66,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 68,
+      "name": "text",
+      "parentid": 66,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 69,
+      "name": "text",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:18px;\nline-height: 0.5;\ncolor: #2a3243;\ninline-size: min-content;\npadding:0px;\ntransform: rotate(45deg);\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 70,
+      "name": "text",
+      "parentid": 43,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 71,
+      "name": "text",
+      "parentid": 43,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件夹",
+      "style": "font-size: 18px;\nfont-weight: 600;\ncolor: #263035;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 72,
+      "name": "AddText",
+      "parentid": 40,
+      "parentstate": 0,
+      "state": [
+        [
+          73
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "display:flex;\nbackground:white;\nalign-items:center;\njustify-content:center;\nborder-radius:12px;\nwidth:44px;\nheight:44px;\nborder: 1.5px solid #2a3243;\ncolor:#2a3243;\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 73,
+      "name": "text",
+      "parentid": 72,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "+",
+      "style": "font-size:24px;\nline-height:1;\npadding:0px;\npadding-bottom:4px;\ninline-size: min-content;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 74,
+      "name": "AddText1",
+      "parentid": 40,
+      "parentstate": 0,
+      "state": [
+        [
+          75,
+          76
+        ],
+        [
+          77,
+          78
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:120px;\ndisplay:flex;\nflex-direction:column;\nbackground:white;",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 75,
+      "name": "text",
+      "parentid": 74,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "选择文件",
+      "style": "font-size: 18px;\nfont-weight: 600;\ncolor: #263035;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 76,
+      "name": "text",
+      "parentid": 74,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "选择文件夹",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 77,
+      "name": "text",
+      "parentid": 74,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件",
+      "style": "font-size: 14px;\nline-height: 20px;\ncolor: #858e99;\ncursor: pointer;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 78,
+      "name": "text",
+      "parentid": 74,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "添加文件夹",
+      "style": "font-size: 18px;\nfont-weight: 600;\ncolor: #263035;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 79,
+      "name": "MuseLogo",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          80,
+          81
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "display:flex;\nflex-direction:column;\nwidth:300px;\nheight:81px;\nbackground:white;\nalign-self:center;\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 80,
+      "name": "text",
+      "parentid": 79,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "content: '';\nwidth:20px;\nalign-self:center;\nborder-top:1px solid #999;\nborder-bottom:1px solid #999;\n\n\n\n\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 81,
+      "name": "text",
+      "parentid": 79,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "MUSE",
+      "style": "margin: 10px auto 12px;\nline-height: 1;\ntext-align: center;\nfont-size: 24px;\nfont-weight: 700;\nletter-spacing: .5px;\ncolor: #000;\ninline-size: min-content;\nwhite-space: nowrap;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 82,
+      "name": "text",
+      "parentid": 79,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 83,
+      "name": "ItemText",
+      "parentid": 21,
+      "parentstate": 0,
+      "state": [
+        [
+          84,
+          85
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:208px;\nheight:38px;\nbackground:white;\npadding:0px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 84,
+      "name": "text",
+      "parentid": 83,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "somefilename.png",
+      "style": "font-size:14px;\nline-height: 1.43;\ncolor: red;\ninline-size: min-content;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 85,
+      "name": "text",
+      "parentid": 83,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "12MB",
+      "style": "font-size:12px;\nfont-weight: 300;\nline-height: 1.5;\ncolor: #858e99;\ninline-size: min-content;\npadding:0px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 86,
+      "name": "text",
+      "parentid": 79,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "MUSE",
+      "style": "margin: 10px auto 12px;\nline-height: 1;\ntext-align: center;\nfont-size: 24px;\nfont-weight: 700;\nletter-spacing: .5px;\ncolor: #000;\ninline-size: min-content;\nwhite-space: nowrap;\npadding:0px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 87,
+      "name": "RightSvg",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:158px;\nheight:140px;\nbackground-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;\n\n\n\n\n\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 88,
+      "name": "img",
+      "parentid": 87,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "",
+      "style": "\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 89,
+      "name": "EachInput",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          90
+        ],
+        [
+          93,
+          94
+        ]
+      ],
+      "whichstate": 1,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "style": "width:300px;\nheight:54px;\nborder-top: 1px solid #999;\nborder-bottom: 1px solid #999;\ndisplay:flex;\njustify-content:center;",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 90,
+      "name": "text",
+      "parentid": 89,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "传输主题",
+      "style": "font-size: 14px;\nline-height: 1;\ncolor: #9aa1b0;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-left:24px;\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 91,
+      "name": "Duration",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "style": "",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 92,
+      "name": "text",
+      "parentid": 89,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "传输主题",
+      "style": "font-size: 14px;\nline-height: 1;\ncolor: #9aa1b0;\npadding:0px;\njustify-self:start;\ninline-size: min-content;\nwhite-space: nowrap;\nmargin-left:24px;\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 93,
+      "name": "text",
+      "parentid": 89,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "传输主题",
+      "style": "font-size: 14px;\nline-height: 1;\ncolor: #9aa1b0;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-left:24px;\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 94,
+      "name": "text",
+      "parentid": 89,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "我输入的主题",
+      "style": "font-size: 14px;\nline-height: 1;\nfont-weight: 600;\ncolor: #2A3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-left:24px;\nmargin-top:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 95,
+      "name": "DurationText",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          96,
+          99,
+          110
+        ],
+        [
+          101,
+          102,
+          109
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "\nbackground-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 96,
+      "name": "text",
+      "parentid": 95,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 97,
+      "name": "text",
+      "parentid": 91,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "有效期",
+      "style": "font-size: 14px;\nline-height: 1;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-left:24px;\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 98,
+      "name": "text",
+      "parentid": 91,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\nline-height: 1;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:24px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 99,
+      "name": "text",
+      "parentid": 95,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "content:\"\";\ncolor: #9aa1b0;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 100,
+      "name": "text",
+      "parentid": 95,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": ">",
+      "style": "font-size: 14px;\ncolor: #2a3243;\nfont-weight:600;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\ntransform: rotate(90deg);\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 101,
+      "name": "text",
+      "parentid": 95,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:8px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 102,
+      "name": "text",
+      "parentid": 95,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": ">",
+      "style": "font-size: 14px;\ncolor: #2a3243;\nfont-weight:600;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\ntransform: rotate(90deg);",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 103,
+      "name": "DurationText",
+      "parentid": 91,
+      "parentstate": 0,
+      "state": [
+        [
+          104,
+          105,
+          106
+        ],
+        [
+          107,
+          108
+        ]
+      ],
+      "whichstate": 1,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "background:white;\npadding:0px;\ndisplay:flex;\ninline-size: min-content;\nalign-items:center;\nmargin-right:24px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 104,
+      "name": "text",
+      "parentid": 103,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:8px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 105,
+      "name": "text",
+      "parentid": 103,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "content:\"\";\ncolor: #9aa1b0;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 106,
+      "name": "text",
+      "parentid": 103,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": ">",
+      "style": "font-size: 14px;\ncolor: #2a3243;\nfont-weight:600;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\ntransform: rotate(90deg);\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 107,
+      "name": "text",
+      "parentid": 103,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:8px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 108,
+      "name": "text",
+      "parentid": 103,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": ">",
+      "style": "font-size: 14px;\ncolor: #2a3243;\nfont-weight:600;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\ntransform: rotate(90deg);",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 109,
+      "name": "img",
+      "parentid": 95,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "",
+      "style": "background-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 110,
+      "name": "img",
+      "parentid": 95,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 111,
+      "name": "DurationText",
+      "parentid": 91,
+      "parentstate": 0,
+      "state": [
+        [
+          112,
+          113,
+          114
+        ],
+        [
+          115,
+          116,
+          117
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "\nbackground-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 112,
+      "name": "text",
+      "parentid": 111,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 113,
+      "name": "text",
+      "parentid": 111,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "content:\"\";\ncolor: #9aa1b0;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 114,
+      "name": "img",
+      "parentid": 111,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 115,
+      "name": "text",
+      "parentid": 111,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:8px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 116,
+      "name": "text",
+      "parentid": 111,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": ">",
+      "style": "font-size: 14px;\ncolor: #2a3243;\nfont-weight:600;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\ntransform: rotate(90deg);",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 117,
+      "name": "img",
+      "parentid": 111,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "",
+      "style": "background-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 118,
+      "name": "text",
+      "parentid": 91,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "有效期",
+      "style": "font-size: 14px;\nline-height: 1;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-left:24px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 119,
+      "name": "DurationText",
+      "parentid": 91,
+      "parentstate": 0,
+      "state": [
+        [
+          120,
+          121,
+          122
+        ],
+        [
+          123,
+          124,
+          125
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "\nbackground-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 120,
+      "name": "text",
+      "parentid": 119,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 121,
+      "name": "text",
+      "parentid": 119,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "content:\"\";\ncolor: #9aa1b0;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 122,
+      "name": "img",
+      "parentid": 119,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 123,
+      "name": "text",
+      "parentid": 119,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:8px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 124,
+      "name": "text",
+      "parentid": 119,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": ">",
+      "style": "font-size: 14px;\ncolor: #2a3243;\nfont-weight:600;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\ntransform: rotate(90deg);",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 125,
+      "name": "img",
+      "parentid": 119,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "",
+      "style": "background-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 126,
+      "name": "DurationChoice",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          127,
+          128,
+          129
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:130px;\nheight:130px;\nborder-radius:20px;\ndisplay:flex;\nflex-direction:column;\njustify-content:center;\nalign-items:center;\njustify-content:space-around;\nbackground:white;\nbox-shadow: 0px 2px 14px rgba(0, 0, 0, 0.06), 0px 11px 24px rgba(37, 42, 45, 0.06);\n\n\n\n\n\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 127,
+      "name": "text",
+      "parentid": 126,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 128,
+      "name": "text",
+      "parentid": 126,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "30天",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 129,
+      "name": "text",
+      "parentid": 126,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "1年",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 130,
+      "name": "DurationChoice",
+      "parentid": 91,
+      "parentstate": 0,
+      "state": [
+        [
+          131,
+          132,
+          133
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "position:absolute;\nbottom:-120px;\nright:0px;\nwidth:130px;\nheight:130px;\nborder-radius:20px;\ndisplay:flex;\nflex-direction:column;\njustify-content:center;\nalign-items:center;\njustify-content:space-around;\nbackground:white;\nbox-shadow: 0px 2px 14px rgba(0, 0, 0, 0.06), 0px 11px 24px rgba(37, 42, 45, 0.06);\n\n\n\n\n\n\n\n\n\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 131,
+      "name": "text",
+      "parentid": 130,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\ncursor:pointer;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}\n\n\n\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 132,
+      "name": "text",
+      "parentid": 130,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "30天",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 133,
+      "name": "text",
+      "parentid": 130,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "1年",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 134,
+      "name": "DurationText",
+      "parentid": 91,
+      "parentstate": 0,
+      "state": [
+        [
+          135,
+          136,
+          137
+        ],
+        [
+          138,
+          139,
+          140
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "background-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;\nmargin-right:24px;\n",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 135,
+      "name": "text",
+      "parentid": 134,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 136,
+      "name": "text",
+      "parentid": 134,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "",
+      "style": "content:\"\";\ncolor: #9aa1b0;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 137,
+      "name": "img",
+      "parentid": 134,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 138,
+      "name": "text",
+      "parentid": 134,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:8px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 139,
+      "name": "text",
+      "parentid": 134,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": ">",
+      "style": "font-size: 14px;\ncolor: #2a3243;\nfont-weight:600;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\ntransform: rotate(90deg);",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 140,
+      "name": "img",
+      "parentid": 134,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "",
+      "style": "background-image: url('http://localhost:3000/src/components/images/42.svg');\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 141,
+      "name": "NewDuration",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          149,
+          160
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card",
+        "item",
+        "space-between-item"
+      ],
+      "selectedtype": 0,
+      "canchild": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        142,
+        143
+      ],
+      "style": "width:300px;\nheight:54px;\nposition:relative;\nborder-top: 1px solid #999;\nborder-bottom: 1px solid #999;\ndisplay:flex;\nflex-direction:row;\njustify-content:space-between;\nalign-items:center;\n\n\n\n\n\n",
+      "comptype": "master",
+      "complevel": "molecule",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 142,
+      "name": "NewDurationText",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          144,
+          145
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "background-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 143,
+      "name": "NewDurationChoice",
+      "parentid": 0,
+      "parentstate": 0,
+      "state": [
+        [
+          146,
+          147,
+          148
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "width:130px;\nheight:130px;\nborder-radius:20px;\ndisplay:flex;\nflex-direction:column;\njustify-content:center;\nalign-items:center;\njustify-content:space-around;\nbackground:white;\nbox-shadow: 0px 2px 14px rgba(0, 0, 0, 0.06), 0px 11px 24px rgba(37, 42, 45, 0.06);",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 144,
+      "name": "text",
+      "parentid": 142,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 145,
+      "name": "img",
+      "parentid": 142,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 146,
+      "name": "text",
+      "parentid": 143,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "7天",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 147,
+      "name": "text",
+      "parentid": 143,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "30天",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 148,
+      "name": "text",
+      "parentid": 143,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "1年",
+      "style": "font-size: 14px;\npadding:4px;\nwidth:130px;\ncolor: #2a3243;\nwhite-space: nowrap;\nmargin-right:4px;\ntext-align:center;\n:hover{\ncolor:#5544de;\nbackground:#F3F0FE;\n}",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 149,
+      "name": "text",
+      "parentid": 141,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "有效期",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\nmargin-left:24px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 150,
+      "name": "text",
+      "parentid": 142,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 151,
+      "name": "img",
+      "parentid": 142,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-size:cover;\nbackground-color:white;\ntransform:rotate(180deg);\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 152,
+      "name": "NewDurationText",
+      "parentid": 141,
+      "parentstate": 0,
+      "state": [
+        [
+          153,
+          154
+        ],
+        [
+          155,
+          156
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "background-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 153,
+      "name": "text",
+      "parentid": 152,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 154,
+      "name": "img",
+      "parentid": 152,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 1
+    },
+    {
+      "id": 155,
+      "name": "text",
+      "parentid": 152,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 156,
+      "name": "img",
+      "parentid": 152,
+      "parentstate": 0,
+      "state": [],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-size:cover;\nbackground-color:white;\ntransform:rotate(180deg);\n\n",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": 0
+    },
+    {
+      "id": 157,
+      "name": "NewDurationText",
+      "parentid": 141,
+      "parentstate": 0,
+      "state": [
+        [
+          158,
+          159
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "background-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 158,
+      "name": "text",
+      "parentid": 157,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 159,
+      "name": "img",
+      "parentid": 157,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 160,
+      "name": "NewDurationText",
+      "parentid": 141,
+      "parentstate": 0,
+      "state": [
+        [
+          161,
+          162
+        ]
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "background-color:rgba(0,0,0,0);\ndisplay:flex;\npadding:0px;\ninline-size: min-content;\nalign-items:center;",
+      "img": "",
+      "whichimg": 0,
+      "canchild": [
+        5,
+        6
+      ],
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": true,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 161,
+      "name": "text",
+      "parentid": 160,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-title",
+        "regular-btn"
+      ],
+      "selectedtype": 0,
+      "input": "这里",
+      "style": "font-size: 14px;\ncolor: #2a3243;\npadding:0px;\ninline-size: min-content;\nwhite-space: nowrap;\njustify-self:center;\nmargin-right:4px;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    },
+    {
+      "id": 162,
+      "name": "img",
+      "parentid": 160,
+      "parentstate": 0,
+      "state": [
+        []
+      ],
+      "whichstate": 0,
+      "deletedstate": [],
+      "type": [
+        "card-img",
+        "fit-container-height-img",
+        "img-container"
+      ],
+      "selectedtype": 0,
+      "img": "http://localhost:3000/src/components/images/arrow.svg",
+      "style": "width:18px;\nheight:18px;\nbackground-size:cover;\nbackground-color:white;",
+      "comptype": "master",
+      "complevel": "atom",
+      "showtree": false,
+      "dir": null,
+      "statedir": null
+    }
+  ]
+}
