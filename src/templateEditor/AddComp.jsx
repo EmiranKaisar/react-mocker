@@ -44,100 +44,72 @@ export const AddComp = () => {
     let addTheseComp = [];
     let compToAdd = {};
     //选择的组件的template
-    if (selectedOption.value === 'text' || selectedOption.value === 'img'){
-       [compToAdd] = templates.filter(
+    if (selectedOption.value === 'text' || selectedOption.value === 'img') {
+      [compToAdd] = templates.filter(
         (comp) => comp.name === selectedOption.value
       );
-    }else{
-        [compToAdd] = templates.filter(
+    } else {
+      [compToAdd] = templates.filter(
         (comp) => comp.name === selectedOption.value && comp.showtree
       );
     }
-    
+
     //const newCompToAdd = { ...compToAdd };
-    const newCompToAdd = {...compToAdd};
+    const newCompToAdd = { ...compToAdd };
     newCompToAdd.id = templates.length;
     newCompToAdd.parentid = selectedId;
     newCompToAdd.showtree = false;
-    if (newCompToAdd.complevel === "molecule") {
-      addTheseComp = moleculeIterate(addTheseComp,newCompToAdd);
-    }else if (newCompToAdd.complevel === "atom") {
-      addTheseComp = atomIterate(addTheseComp,newCompToAdd);
-    } else{
-      addTheseComp.push(newCompToAdd);
-    }
+    addTheseComp.push(newCompToAdd);
+    addTheseComp = compRecurse(addTheseComp, newCompToAdd);
     updateData((updater) => {
       updater.templates[selectedId].state[selectedCompState].push(templates.length);
     });
-    addTheseComp.map((e)=>{
+    addTheseComp.map((e) => {
       updateData((updater) => {
         updater.templates.push(e);
       });
     })
   };
 
-  const moleculeIterate = (addTheseComp, iterateThisMolecule) => {
-    let counter = iterateThisMolecule.id;
-    let thisIteratorCompArr = [];
-    const moleculeStateArr = [];
-    for (let i = 1; i <= iterateThisMolecule.state.length; i++) {
-      //一个state中的组件arr
-      const stateArr = iterateThisMolecule.state[i - 1];
-      //增加一个state
-      const newState = [];
-      if(stateArr.length<1) moleculeStateArr.push([]);
+  const compRecurse = (addTheseComp, start) => {
+    let counter = templates.length + addTheseComp.length-1;
+    let newAddTheseComp = [...addTheseComp];
+    const thisCompStateArr = [];
+      for (let i = 1; i <= start.state.length; i++) {
+        //一个state中的组件arr
+        const stateArr = start.state[i - 1];
+        //增加一个state
+        const newState = [];
 
-      for (let t = 1; t <= stateArr.length; t++) {
-        const oneAtomId = stateArr[t-1];
-        const oneAtom = templates[oneAtomId];
-
-        counter = counter +1;
-        let newAtomComp = {...oneAtom};
-        newAtomComp.id = counter;
-        newAtomComp.parentid = iterateThisMolecule.id;
-        newAtomComp.showtree = false;
-        newState.push(counter);
-        if(t === stateArr.length) moleculeStateArr.push(newState);
-
-        if(newAtomComp.complevel === 'atom') {
-          thisIteratorCompArr = atomIterate([...addTheseComp, ...thisIteratorCompArr], newAtomComp);
-          counter = thisIteratorCompArr.length+templates.length;
+        if (stateArr.length < 1) {
+          thisCompStateArr.push([]);
         }else{
-          thisIteratorCompArr.push(newAtomComp);
+        for (let t = 1; t <= stateArr.length; t++) {
+          const oneCompId = stateArr[t - 1];
+          const oneComp = templates[oneCompId];
+
+          if(newAddTheseComp.length + templates.length - 1 !== counter ){
+            counter = newAddTheseComp.length + templates.length;
+          }else{
+            counter = counter + 1;
+          }
+
+          let newCompToAdd = { ...oneComp };
+          newCompToAdd.id = counter;
+          newCompToAdd.parentid = start.id;
+          newCompToAdd.showtree = false;
+
+          newState.push(counter);
+          if (t === stateArr.length) thisCompStateArr.push(newState);
+          newAddTheseComp.push(newCompToAdd);
+          newAddTheseComp = compRecurse(newAddTheseComp, newCompToAdd);
         }
+      }
     }
-  }
-  iterateThisMolecule.state = moleculeStateArr;
-  return [...addTheseComp, iterateThisMolecule, ...thisIteratorCompArr];
-  };
-  
-  const atomIterate = (addTheseComp, iterateThisAtom)=>{
-    let counter = iterateThisAtom.id;
-    let thisIteratorCompArr = [];
-    const moleculeStateArr = [];
-    for (let i = 1; i <= iterateThisAtom.state.length; i++) {
-      //一个state中的组件arr
-      const stateArr = iterateThisAtom.state[i - 1];
-      //增加一个state
-      const newState = [];
-      if(stateArr.length<1) moleculeStateArr.push([]);
-
-      for (let t = 1; t <= stateArr.length; t++) {
-        const oneAtomId = stateArr[t-1];
-        const oneAtom = templates[oneAtomId];
-
-        counter = counter +1;
-        let newAtomComp = {...oneAtom};
-        newAtomComp.id = counter;
-        newAtomComp.parentid = iterateThisAtom.id;
-        newAtomComp.showtree = false;
-        newState.push(counter);
-        if(t === stateArr.length) moleculeStateArr.push(newState);
-        thisIteratorCompArr.push(newAtomComp);
-    }
-  }
-  iterateThisAtom.state = moleculeStateArr;
-  return [...addTheseComp, iterateThisAtom, ...thisIteratorCompArr];
+    start.state = thisCompStateArr;
+    newAddTheseComp[addTheseComp.length-1] = start;
+      return newAddTheseComp;
+    
   }
 
   return (

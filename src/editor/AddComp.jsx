@@ -56,15 +56,17 @@ export const AddComp = () => {
     newCompToAdd.id = elements.length;
     newCompToAdd.parentid = selectedId;
     newCompToAdd.showtree = false;
-    if (newCompToAdd.complevel === "organism") {
-      addTheseComp = organismIterate(addTheseComp, newCompToAdd);
-    } else if (newCompToAdd.complevel === "molecule") {
-      addTheseComp = moleculeIterate(addTheseComp, newCompToAdd);
-    } else if (newCompToAdd.complevel === "atom") {
-      addTheseComp = atomIterate(addTheseComp, newCompToAdd);
-    } else {
-      addTheseComp.push(newCompToAdd);
-    }
+    addTheseComp.push(newCompToAdd);
+    addTheseComp = compRecurse(addTheseComp, newCompToAdd);
+    // if (newCompToAdd.complevel === "organism") {
+    //   addTheseComp = organismIterate(addTheseComp, newCompToAdd);
+    // } else if (newCompToAdd.complevel === "molecule") {
+    //   addTheseComp = moleculeIterate(addTheseComp, newCompToAdd);
+    // } else if (newCompToAdd.complevel === "atom") {
+    //   addTheseComp = atomIterate(addTheseComp, newCompToAdd);
+    // } else {
+    //   addTheseComp.push(newCompToAdd);
+    // }
     if (selectedCompName === "page") {
       updateData((updater) => {
         updater.elements[0].pagearray[thisPage].push(elements.length);
@@ -190,6 +192,47 @@ export const AddComp = () => {
     iterateThisAtom.state = moleculeStateArr;
     return [...addTheseComp, iterateThisAtom, ...thisIteratorCompArr];
   };
+
+  const compRecurse = (addTheseComp, start) => {
+    let counter = elements.length + addTheseComp.length-1;
+    let newAddTheseComp = [...addTheseComp];
+    const thisCompStateArr = [];
+      for (let i = 1; i <= start.state.length; i++) {
+        //一个state中的组件arr
+        const stateArr = start.state[i - 1];
+        //增加一个state
+        const newState = [];
+
+        if (stateArr.length < 1) {
+          thisCompStateArr.push([]);
+        }else{
+        for (let t = 1; t <= stateArr.length; t++) {
+          const oneCompId = stateArr[t - 1];
+          const oneComp = templates[oneCompId];
+
+          if(newAddTheseComp.length + elements.length - 1 !== counter ){
+            counter = newAddTheseComp.length + elements.length;
+          }else{
+            counter = counter + 1;
+          }
+
+          let newCompToAdd = { ...oneComp };
+          newCompToAdd.id = counter;
+          newCompToAdd.parentid = start.id;
+          newCompToAdd.showtree = false;
+
+          newState.push(counter);
+          if (t === stateArr.length) thisCompStateArr.push(newState);
+          newAddTheseComp.push(newCompToAdd);
+          newAddTheseComp = compRecurse(newAddTheseComp, newCompToAdd);
+        }
+      }
+    }
+    start.state = thisCompStateArr;
+    newAddTheseComp[addTheseComp.length-1] = start;
+      return newAddTheseComp;
+    
+  }
 
   return (
     <div className={"editor-each-item"}>
